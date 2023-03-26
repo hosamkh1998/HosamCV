@@ -1,0 +1,46 @@
+.header,.footer{
+    height: 70px;
+}
+
+@media screen and (max-width:992px) {
+    .leftSide{
+        border-bottom: 1px solid gray;
+    }
+    .rightSide{
+        margin-top: 3px;
+    }
+}
+
+@media screen and (min-width:991px) {
+    .leftSide{
+        border-right: 1px solid gray;
+    }
+}
+
+/* @media screen and (min-height:500px) {
+    .header,.footer{
+        height: 7vh;
+    }
+    
+    .leftSide,.rightSide,.leftSideP{
+        height: 85vh;
+    }
+} */
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.cardProj{
+    box-shadow: 3px 3px rgb(173, 168, 168,.5);
+}
+
+i{
+    margin-left: 5px;
+}
+
+.imgProfile{
+    width: 50%;
+    border-radius: 10%;
+}
