@@ -114,7 +114,7 @@ var myProjects = [
   },
   {
     Image:
-      "https://media.istockphoto.com/id/1255481144/photo/photo-frames-on-the-wall-portfolio-photo-lab.jpg?s=612x612&w=0&k=20&c=Dr1MgpMNxJkTxptMyqgA3J2qN7WFCyE5ZVhtRrgUXHs=https://www.shutterstock.com/image-vector/bookstore-shop-exterior-books-brick-260nw-1518910268.jpg",
+      "https://assets.materialup.com/uploads/24de0951-14e6-4f0c-900a-4dc57f522234/26.png",
     title: "Products Gallery",
     technologies: ["Html, CSS, JavaScript"],
     link: "https://hosamkh1998.github.io/galleryProCode/",
