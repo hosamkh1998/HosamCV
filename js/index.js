@@ -115,12 +115,12 @@ var myProjects = [
   {
     Image:
       "https://www.shutterstock.com/image-vector/bookstore-shop-exterior-books-brick-260nw-1518910268.jpg",
-    title: "Book Shop",
-    technologies: ["Vue, Node.js, MongoDB"],
-    link: "https://wolfergod23.github.io/Book-Shop/",
+    title: "Products Gallery",
+    technologies: ["Html, CSS, JavaScript"],
+    link: "https://hosamkh1998.github.io/galleryProCode/",
     description:
       "A website for a book shop, where the user can register and log in, and the user can add and delete books to the cart, and the user can see the total price of the books in the cart.",
-    createdBy: "27/05/2022",
+    createdBy: "27/03/2023",
   },
 ];
 
