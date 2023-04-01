@@ -1,7 +1,9 @@
 .header,.footer{
     height: 70px;
 }
-
+.header{
+    background-color: rgb(151, 187, 215);
+}
 @media screen and (max-width:992px) {
     .leftSide{
         border-bottom: 1px solid gray;
@@ -34,6 +36,7 @@ a{
 
 .cardProj{
     box-shadow: 3px 3px rgb(173, 168, 168,.5);
+    width: 18rem;
 }
 
 i{
@@ -42,5 +45,29 @@ i{
 
 .imgProfile{
     width: 50%;
-    border-radius: 10%;
+    border-radius: 50%;
+}
+.imgProfile:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.description{
+    height: 15vh;
+    overflow: scroll;
+}
+
+@media screen and (max-width:730px) {
+    .cardProj{
+        width: 90%;
+    }
+}
+@media screen and (max-width:990px) {
+    .row{
+        justify-content: center;
+    }
+}
+
+.cardProj img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
 }

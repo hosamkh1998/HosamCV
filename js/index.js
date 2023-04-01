@@ -107,7 +107,7 @@ var myProjects = [
     Image: "https://i.ytimg.com/vi/fpV1LTbavKk/hqdefault.jpg",
     title: "To Be Programmer",
     technologies: ["Vue, Node.js, MongoDB"],
-    link: "https://wolfergod23.github.io/To-Be-Programmer/",
+    link: "https://hosamkh1998.github.io/hosamTestCodePro/",
     description:
       "A website for a programming course, where students can register and log in, and the teacher can add and delete students, and the students can see their grades and the teacher can add and delete grades.",
     createdBy: "25/04/2023",
@@ -191,10 +191,10 @@ function renderSocial() {
 function renderProjects() {
   var strHTML = "";
   myProjects.forEach(function (item) {
-    (strHTML += `<div class="card m-1 cardProj" style="width: 18rem">
+    (strHTML += `<div class="card m-1 cardProj">
     <img
       src="${item.Image}"
-      class="card-img-top"
+      class="card-img-top cardImg"
       alt="${item.title}"
     />
     <div class="card-body">
@@ -209,7 +209,7 @@ function renderProjects() {
         </ul>
       </p>
       <p class="fs-5 text-primary">${item.createdBy}</p>
-      <p class="card-text">${item.description}</p>
+      <p class="card-text description">${item.description}</p>
       <button class="btn btn-success col-12"><a class="text-light" href="${item.link}" target="_blank">Visit site</a></button>
     </div>
   
